@@ -2,28 +2,46 @@
 <html>
     <head>
         <title>First Form</title>
+        <style>
+            body{
+                background-image: url("chess.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: aqua;
+            }
+           fieldset{
+               text-align: center;
+               
+           } 
+        </style>
     </head>
     <body>
         <fieldset>
-            <legend>User Information</legend><br>
-            <label for="firstname">First Name:</label><br>
+            <legend style="color: aquamarine;"><b>User Information</b></legend><br>
+            <label for="firstname" style="color:white;"><b>First Name:</b></label><br>
             <input type="text" id="firstname" name="firstname"><br>
-            <label for="lastname">Last Name:</label><br>
+            <label for="lastname" style="color:white;"><b>Last Name:</b></label><br>
             <input type="text" id="lastname" name="lastname"><br>
-            <label for="email">Email:</label><br>
+            <label for="email" style="color:white;"><b>Email:</b></label><br>
             <input type="email" id="email" name="email"><br>
-            <label for="password">Password:</label><br>
+            <label for="password" style="color:white;"><b>Password:</b></label><br>
             <input type="password" id="password" name="password"><br>
-            <label for="password">Confirm Password:</label><br>
+            <label for="password" style="color:white;"><b>Confirm Password:</b></label><br>
             <input type="password" id="password" name="password"><br>
-            <label for="gender">Gender:</label><br>
-            <input type="radio" id="gender" name="gender" value="Male">Male<br>
-            <input type="radio" id="gender" name="gender" value="Female">Female<br>
-            <input type="radio" id="gender" name="gender" value="Others">Others<br>
-            <label>Address:</label><br>
+            <label for="gender" style="color:white;"><b>Gender:</b></label><br>
+            <input type="radio" id="gender" name="gender" value="Male" style="color: azure;"> Male<br>
+            <input type="radio" id="gender" name="gender" value="Female" style="color: azure;">Female<br>
+            <input type="radio" id="gender" name="gender" value="Others" style="color: azure;">Others<br>
+            <label style="color:white;"><b>DOB</b></label>
+            <br><input type="date" name="DOB"><br>
+            <label style="color:white;"><b>Mobile</b></label>
+            <br><input type="tel" name="telephone">
+            <br><label style="color:white;"><b>Address:</b></label><br>
             <textarea></textarea><br>
             <input type="submit" value="Sign-up">
+
         </fieldset>
+        </form>
     </body>
 
 </html>

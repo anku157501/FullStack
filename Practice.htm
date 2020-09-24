@@ -12,6 +12,9 @@
                 
                 padding:10px;
             }
+            body{
+                background-color:pink;
+            }
         </style>
     </head>
     <body>
@@ -149,7 +152,7 @@ good<del> this is delible</del> ohh<ins> this is inserted new...</ins>
     <label for="password">Password:</label><br>
     <input type="password" id="password" name="password">
     <br><label for="email">Email:</label><br>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email" multiple>
     <fieldset>
         <legend>Choices of user</legend><br>
         <label for="gender">Gender:</label><br>
@@ -163,7 +166,56 @@ good<del> this is delible</del> ohh<ins> this is inserted new...</ins>
         <br><input type="submit" value="submit">
     </fieldset>
     
+    <form action="www.javatpoint.com">
+        <label>Username:</label>
+        <input type="text" name="username" value="username">
+        <label>Password:</label>
+        <input type="password" name="password" value="password">
+        <br><input type="submit" value="Login">
+        <input type="reset" value="Reset"><br><br>
+        <input type="button" value="Click me" onclick="alert('we r learning html')">
+        <br>
+        <br><label>Select the file:</label>
+        <br><input type="file" name="newfile">
+        <br><input type="submit" value="Submit">
+        <br><input type="image" alt="Submit" src="C:\Users\user\Downloads\120-HX788077.jpg" width="500px">
+        <br><input type="color" name="upclick" value="#aaaaaa">upclick
+        <br><input type="color" name="downclick" value="#a52567">downclick
+        <h2>Start date and End Date</h2>
+        <input type="date" name="startdate">startdate
+        <br><input type="date" name="enddate">enddate
+        <h3>date time local type</h3>
+        <br><label>
+            Select Meeting time:<br>
+            <input type="datetime-local" name="Meetingtime">
+        </label>
+        <br><input type="submit">
+        <h2>Select birth onth n year</h2>
+        <label>Birth month and year</label>
+        <br><input type="month" name="newmonth">
+        <input type="submit">
+        <h2>Number</h2>
+        <label>enter the age</label>
+        <br>
+        <input type="number" name="num" min="30" max="80">
+        <input type="submit">
+        <h2> search</h2>
+        <label>search a string</label>
+        <br><input type="search" name="text">
+        <input type="submit" value="search">
+        <h2>week</h2>
+        <label>Best week</label>        
+        <br><input type="week" name="bestweek">
+        <input type="submit" value="send here">
+        <br><label>URL</label>        
+        <br><input type="url" name="website" placeholder="www.imagebazar.com">
+        <br><input type="submit" value="send">
+        <br><label>Telephone</label>        
+        <br><input type="tel" name="Telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} required">
+        <br><input type="submit">
+        
 
+         
 </form>
 </body>
     </html>
