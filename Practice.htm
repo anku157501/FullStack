@@ -1,272 +1,309 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>formatting tags</title>
-        <style>
-            table,th,td{
-                border:2px solid red;
-                border-collapse:collapse ;
-                width: 25%;
-            }
-            th,td{
-                
-                padding:10px;
-            }
-            body{
-                background-color:pink;
-            }
-            .heading{
-               background-color: darkgoldenrod;
-               color: darkred;
-               font-family:'Times New Roman', Times, serif;
-               font-style: oblique;
-           }
-           .fruit{
-               background-color: darksalmon;
-               color: darkslategrey;
-               padding: 25px;
-           }
-           .center{
-               text-align: center;
-           }
-           #Cars{
-               padding:1%;
-               background-color: darksalmon;
-               color: firebrick;
-               text-align: center;
-           }
-           #Roads{
-            padding:1%;
-               background-color:skyblue;
-               color: green;
-               text-align: center;
-               font-family: Verdana, Geneva, Tahoma, sans-serif;
-           }
-        </style>
-    </head>
-    <body>
-        <h1 id ="Cars">Riding in cars</h1>
-        <h1 id ="Roads">Roads are for Riding and to run</h1>
-        <h2 class="heading">this is first heading</h2>
-        <h2 class="heading">this is second heading</h2>
-        <h2 class="heading">this is third heading</h2>
-        <h2 class="heading">this is fourth heading</h2>
-        <h1 class="fruit">Mango</h1>
-        <p>Mango is the king of all fruits</p>
-        <h1 class="fruit">Orange</h1>
-        <p>Orange is full of Vitamin C</p>
-        <h1 class="fruit">Apple</h1>
-        <p>An Apple in a day ,Keeps the Doctor away</p>
-        <h1 class="fruit center">Pineapple</h1>
-        <p>Pineapple is very sour in taste</p>
-        <h1 class="fruit">Mango</h1>
-        <p class="fruit center">Mango is the king of all fruits</p>
-        <h1>Explanation of formatting element</h1>
-        <p><b>this is the text is in bold</b><br>
-        <strong>this tells the browser that it means to imp</strong></p>
-        <p><i>text in italic</i><br>text diff<em> it is in italic but it has semantic meaning</em></p>
-        <div>this is <mark>highlighted text</mark><br><u>underlined text</u><br>
-        hi,<sup>I am new in internet programming</sup><br>
-    hello<sub>this is me Anki</sub><br>
-good<del> this is delible</del> ohh<ins> this is inserted new...</ins>
-<p>An<abbr title="Hypertext Markup Language">HTML</abbr>web page
-    <br><dfn>HTML</dfn>is a web programming Language
-<br><blockquote cite="www.javatpoint.com">?this is not enough</blockquote></p>
-<cite>-ME</cite>
-<p>this is for <q>simple qouation</q><br>Coding lines<code> System.out.prinltn("hi");</code> <br>for keyboard <kbd>Ctrl</kbd>+<kbd>Shif</kbd>+</p>
-<address>contact for author email:<a href="">anki999@gmail.com</a><br>mobile no 123456</address>
-</div>
-<p>this is new para<hr>this is second</p>
-<div>
-    <table><caption>GENEral</caption>
-        <tr>
-            <th>Name</th>
-            <th colspan="2">Mobile</th>
-            <th>Age</th>
-           
-        </tr>
-        <tr>
-            <td>Rahul</td>
-            <td>1255523575</td>
-            <td>785643234</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>Manish</td>
-            <td>12555235751645</td>
-            <td>785643234</td>
-            <td>22</td>
-            
-        </tr>
-        <tr>
-            <td>Udit</td>
-            <td>1255523575</td>
-            <td>7856432340000</td>
-            <td>20</td>
-            
-        </tr>
-    </table>
-    <table style="border: 4px solid green;width: 25%;">
-       <caption>Study</caption> <tr><th>Name</th><td>mini</td><td>kimmi</td><td>shally</td></tr>
-    <tr> <th rowspan="3">Subjects</th>
-        <td>CN</td><td>BME</td><td>DSA</td>></tr>
-        <tr><td>DBMS</td><td>SE</td><td>CO</td></tr>
-        <tr><td>DS</td><td>SOME</td><td>DIP</td></tr>
-            </table>
-</div>   
-<p>List of states with thier capitals</p>
-<ol>
-    <li>Uttar Pradesh
-        <ul>
-            <li>Lucknow</li>
-        </ul>
-    </li>
-    <li>Madhya Pradesh
-        <ul>
-            <li>Bhopal</li>
-        </ul>
-    </li>
-    <li>Chattishgargh
-        <ul>
-            <li>Raypur</li>
-        </ul>
-    </li>
-</ol> 
-<dl>
-    <dt>Himachal Pradesh</dt>
-    <dd>-Shimla</dd>
-    <dt>Nagaland</dt>
-    <dd>-Kohima</dd>
-    <dt>Arunachal Pradesh</dt>
-    <dd>-Etanagar</dd>
-</dl>
-<p>Types of Ordered list</p>
-<ol type="I">
-    <li>Java</li>
-    <li>C</li>
-    <li>Python</li>
-</ol>
-<ol type="A">
-    <li>Mountains</li>
-    <li>Hills</li>
-    <li>Rivers</li>
-</ol>
-<ol type="a" start="4">
-    <li>Glass</li>
-    <li>Plate</li>
-    <li>Cup</li>
-</ol>
-<ol type="i" start="9">
-    <li>Software</li>
-    <li>Hardware</li>
-    <li>Laptops</li>
-</ol>
-<h2> the unordered list types</h2>
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JAVASCRIPT</li>
-</ul>
-<ul style="list-style-type: square;">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JAVASCRIPT</li>
-</ul>
-<ul style="list-style-type: circle;">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JAVASCRIPT</li>
-</ul>
-<ul  style="lighting-color:red;list-style:lower-greek ;">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JAVASCRIPT</li>
-</ul>
-<form>
-    <label for="firstname">Firstname:</label>
-    <br>
-    <input type="text" id="firstname" name="firstname"><br>
-    <label for="lastname">Lastname:</label><br>
-    <input type="text" id="lastname" name="lastname"><br>
-    Email:<br>
-    <input type="text" name="username"><br>
-    Address:<br>
-    <textarea rows="0" cols="0"></textarea><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password">
-    <br><label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" multiple>
-    <fieldset>
-        <legend>Choices of user</legend><br>
-        <label for="gender">Gender:</label><br>
-        <input type="radio" id="gender" name="gender" value="Male">Male
-        <input type="radio" id="gender" name="gender" value="Female">Female
-        <input type="radio" id="gender" name="gender" value="Other">Other
-       <br> <label>Hobby:</label><br>
-        <input type="checkbox" id="cricket" name="cricket" value="cricket">Cricket
-        <br><input type="checkbox" id="tennis" name="tennis" value="tennis">Tennis
-        <br><input type="checkbox" id="football" name="football" value="football">Football
-        <br><input type="submit" value="submit">
-    </fieldset>
-    
-    <form action="www.javatpoint.com">
-        <label>Username:</label>
-        <input type="text" name="username" value="username">
-        <label>Password:</label>
-        <input type="password" name="password" value="password">
-        <br><input type="submit" value="Login">
-        <input type="reset" value="Reset"><br><br>
-        <input type="button" value="Click me" onclick="alert('we r learning html')">
-        <br>
-        <br><label>Select the file:</label>
-        <br><input type="file" name="newfile">
-        <br><input type="submit" value="Submit">
-        <br><input type="image" alt="Submit" src="C:\Users\user\Downloads\120-HX788077.jpg" width="500px">
-        <br><input type="color" name="upclick" value="#aaaaaa">upclick
-        <br><input type="color" name="downclick" value="#a52567">downclick
-        <h2>Start date and End Date</h2>
-        <input type="date" name="startdate">startdate
-        <br><input type="date" name="enddate">enddate
-        <h3>date time local type</h3>
-        <br><label>
-            Select Meeting time:<br>
-            <input type="datetime-local" name="Meetingtime">
-        </label>
-        <br><input type="submit">
-        <h2>Select birth onth n year</h2>
-        <label>Birth month and year</label>
-        <br><input type="month" name="newmonth">
-        <input type="submit">
-        <h2>Number</h2>
-        <label>enter the age</label>
-        <br>
-        <input type="number" name="num" min="30" max="80">
-        <input type="submit">
-        <h2> search</h2>
-        <label>search a string</label>
-        <br><input type="search" name="text">
-        <input type="submit" value="search">
-        <h2>week</h2>
-        <label>Best week</label>        
-        <br><input type="week" name="bestweek">
-        <input type="submit" value="send here">
-        <br><label>URL</label>        
-        <br><input type="url" name="website" placeholder="www.imagebazar.com">
-        <br><input type="submit" value="send">
-        <br><label>Telephone</label>        
-        <br><input type="tel" name="Telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} required">
-        <br><input type="submit">
-        
 
-         
-</form>
-<br><h2>Form Atrribute</h2>
-<form action="MyFirstWebPage.htm" method="POST"></form>
-<label>Enter Username</label><br>
-<input type="text" name="username">
-<br>
-<label>Enter Password</label><br>
-<input type="password" name="pass" value="pass"><br>
-<input type="submit" value="Submit">
+<head>
+    <title>formatting tags</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid red;
+            border-collapse: collapse;
+            width: 25%;
+        }
+
+        th,
+        td {
+
+            padding: 10px;
+        }
+
+        body {
+            background-color: pink;
+        }
+
+        .heading {
+            background-color: darkgoldenrod;
+            color: darkred;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: oblique;
+        }
+
+        .fruit {
+            background-color: darksalmon;
+            color: darkslategrey;
+            padding: 25px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        #Cars {
+            padding: 1%;
+            background-color: darksalmon;
+            color: firebrick;
+            text-align: center;
+        }
+
+        #Roads {
+            padding: 1%;
+            background-color: skyblue;
+            color: green;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="Cars">Riding in cars</h1>
+    <h1 id="Roads">Roads are for Riding and to run</h1>
+    <h2 class="heading">this is first heading</h2>
+    <h2 class="heading">this is second heading</h2>
+    <h2 class="heading">this is third heading</h2>
+    <h2 class="heading">this is fourth heading</h2>
+    <h1 class="fruit">Mango</h1>
+    <p>Mango is the king of all fruits</p>
+    <h1 class="fruit">Orange</h1>
+    <p>Orange is full of Vitamin C</p>
+    <h1 class="fruit">Apple</h1>
+    <p>An Apple in a day ,Keeps the Doctor away</p>
+    <h1 class="fruit center">Pineapple</h1>
+    <p>Pineapple is very sour in taste</p>
+    <h1 class="fruit">Mango</h1>
+    <p class="fruit center">Mango is the king of all fruits</p>
+    <h1>Explanation of formatting element</h1>
+    <p><b>this is the text is in bold</b><br>
+        <strong>this tells the browser that it means to imp</strong></p>
+    <p><i>text in italic</i><br>text diff<em> it is in italic but it has semantic meaning</em></p>
+    <div>this is <mark>highlighted text</mark><br><u>underlined text</u><br>
+        hi,<sup>I am new in internet programming</sup><br>
+        hello<sub>this is me Anki</sub><br>
+        good<del> this is delible</del> ohh<ins> this is inserted new...</ins>
+        <p>An<abbr title="Hypertext Markup Language">HTML</abbr>web page
+            <br><dfn>HTML</dfn>is a web programming Language
+            <br>
+        <blockquote cite="www.javatpoint.com">?this is not enough</blockquote>
+        </p>
+        <cite>-ME</cite>
+        <p>this is for <q>simple qouation</q><br>Coding lines<code> System.out.prinltn("hi");</code> <br>for keyboard
+            <kbd>Ctrl</kbd>+<kbd>Shif</kbd>+</p>
+        <address>contact for author email:<a href="">anki999@gmail.com</a><br>mobile no 123456</address>
+    </div>
+    <p>this is new para
+        <hr>this is second</p>
+    <div>
+        <table>
+            <caption>GENEral</caption>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Mobile</th>
+                <th>Age</th>
+
+            </tr>
+            <tr>
+                <td>Rahul</td>
+                <td>1255523575</td>
+                <td>785643234</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Manish</td>
+                <td>12555235751645</td>
+                <td>785643234</td>
+                <td>22</td>
+
+            </tr>
+            <tr>
+                <td>Udit</td>
+                <td>1255523575</td>
+                <td>7856432340000</td>
+                <td>20</td>
+
+            </tr>
+        </table>
+        <table style="border: 4px solid green;width: 25%;">
+            <caption>Study</caption>
+            <tr>
+                <th>Name</th>
+                <td>mini</td>
+                <td>kimmi</td>
+                <td>shally</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Subjects</th>
+                <td>CN</td>
+                <td>BME</td>
+                <td>DSA</td>>
+            </tr>
+            <tr>
+                <td>DBMS</td>
+                <td>SE</td>
+                <td>CO</td>
+            </tr>
+            <tr>
+                <td>DS</td>
+                <td>SOME</td>
+                <td>DIP</td>
+            </tr>
+        </table>
+    </div>
+    <p>List of states with thier capitals</p>
+    <ol>
+        <li>Uttar Pradesh
+            <ul>
+                <li>Lucknow</li>
+            </ul>
+        </li>
+        <li>Madhya Pradesh
+            <ul>
+                <li>Bhopal</li>
+            </ul>
+        </li>
+        <li>Chattishgargh
+            <ul>
+                <li>Raypur</li>
+            </ul>
+        </li>
+    </ol>
+    <dl>
+        <dt>Himachal Pradesh</dt>
+        <dd>-Shimla</dd>
+        <dt>Nagaland</dt>
+        <dd>-Kohima</dd>
+        <dt>Arunachal Pradesh</dt>
+        <dd>-Etanagar</dd>
+    </dl>
+    <p>Types of Ordered list</p>
+    <ol type="I">
+        <li>Java</li>
+        <li>C</li>
+        <li>Python</li>
+    </ol>
+    <ol type="A">
+        <li>Mountains</li>
+        <li>Hills</li>
+        <li>Rivers</li>
+    </ol>
+    <ol type="a" start="4">
+        <li>Glass</li>
+        <li>Plate</li>
+        <li>Cup</li>
+    </ol>
+    <ol type="i" start="9">
+        <li>Software</li>
+        <li>Hardware</li>
+        <li>Laptops</li>
+    </ol>
+    <h2> the unordered list types</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <ul style="list-style-type: circle;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <ul style="lighting-color:red;list-style:lower-greek ;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <form>
+        <label for="firstname">Firstname:</label>
+        <br>
+        <input type="text" id="firstname" name="firstname"><br>
+        <label for="lastname">Lastname:</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+        Email:<br>
+        <input type="text" name="username"><br>
+        Address:<br>
+        <textarea rows="0" cols="0"></textarea><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password">
+        <br><label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" multiple>
+        <fieldset>
+            <legend>Choices of user</legend><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="gender" name="gender" value="Male">Male
+            <input type="radio" id="gender" name="gender" value="Female">Female
+            <input type="radio" id="gender" name="gender" value="Other">Other
+            <br> <label>Hobby:</label><br>
+            <input type="checkbox" id="cricket" name="cricket" value="cricket">Cricket
+            <br><input type="checkbox" id="tennis" name="tennis" value="tennis">Tennis
+            <br><input type="checkbox" id="football" name="football" value="football">Football
+            <br><input type="submit" value="submit">
+        </fieldset>
+
+        <form action="www.javatpoint.com">
+            <label>Username:</label>
+            <input type="text" name="username" value="username">
+            <label>Password:</label>
+            <input type="password" name="password" value="password">
+            <br><input type="submit" value="Login">
+            <input type="reset" value="Reset"><br><br>
+            <input type="button" value="Click me" onclick="alert('we r learning html')">
+            <br>
+            <br><label>Select the file:</label>
+            <br><input type="file" name="newfile">
+            <br><input type="submit" value="Submit">
+            <br><input type="image" alt="Submit" src="C:\Users\user\Downloads\120-HX788077.jpg" width="500px">
+            <br><input type="color" name="upclick" value="#aaaaaa">upclick
+            <br><input type="color" name="downclick" value="#a52567">downclick
+            <h2>Start date and End Date</h2>
+            <input type="date" name="startdate">startdate
+            <br><input type="date" name="enddate">enddate
+            <h3>date time local type</h3>
+            <br><label>
+                Select Meeting time:<br>
+                <input type="datetime-local" name="Meetingtime">
+            </label>
+            <br><input type="submit">
+            <h2>Select birth onth n year</h2>
+            <label>Birth month and year</label>
+            <br><input type="month" name="newmonth">
+            <input type="submit">
+            <h2>Number</h2>
+            <label>enter the age</label>
+            <br>
+            <input type="number" name="num" min="30" max="80">
+            <input type="submit">
+            <h2> search</h2>
+            <label>search a string</label>
+            <br><input type="search" name="text">
+            <input type="submit" value="search">
+            <h2>week</h2>
+            <label>Best week</label>
+            <br><input type="week" name="bestweek">
+            <input type="submit" value="send here">
+            <br><label>URL</label>
+            <br><input type="url" name="website" placeholder="www.imagebazar.com">
+            <br><input type="submit" value="send">
+            <br><label>Telephone</label>
+            <br><input type="tel" name="Telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} required">
+            <br><input type="submit">
+
+
+
+        </form>
+        <br>
+        <h2>Form Atrribute</h2>
+        <form action="MyFirstWebPage.htm" method="POST"></form>
+        <label>Enter Username</label><br>
+        <input type="text" name="username">
+        <br>
+        <label>Enter Password</label><br>
+        <input type="password" name="pass" value="pass"><br>
+        <input type="submit" value="Submit">
 </body>
-    </html>
+
+</html>
