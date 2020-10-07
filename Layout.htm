@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>html  layout</title>
+        <title>html table layout</title>
     </head>
     <body>
-        <header style="background-color:chocolate;text-align: center;border: 1px solid green; height: 80px; width: 100%">
-        <h1 style="color: darkblue;text-align: center;font-size: 30px;">
-        heading</h1></header>
-        <nav style="background-color: darkcyan;border: 1px solid black;">
-        <h1 style="text-align: center;">Navigation links</h1>
-    <ul>
-        <li><a href="#">Link1</a></li>
-        <li><a href="#">Link2</a></li>
-        <li><a href="#">Link3</a></li>
-        <li><a href="#">Link4</a></li>
-    </ul></nav>
-    <section style="background-color: darkgreen;border: 1px solid red;">
-    <h2>section area</h2></section>
-    <article style="background-color:pink;border: 1px solid blue;">
-    <h2 style="text-align: center;">article for the web page</h2>
-<p>write the whole cntent of the web page</p></article>
-<aside style="background-color: slateblue;">
-<h2 style="text-align: center;">sidebar</h2>
-<p>section for related contect form web page</p></aside>
-<footer style="background-color: teal;">
-<h2 style="text-align: left;">@Copyright 2021-2023</h2></footer>
-<details>
-<summary>This is visible section: click to show other details</summary>
-<p>the para section</p></detail>
-<details>
-    <summary>HTML is acronym for?</summary>
-    <p style="color: blue; font-size: 20px;">Hypertext Markup Language</p>
-</details>
+        <table width="100%" style="border-collapse: collapse;">
+    <tr>    <td colspan="2" style="background-color:chocolate;text-align: center;" width="100%"><h2 style="color: darkblue;">Header Section</h2></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color:rosybrown; text-align: center;" width="100%"><h2>Nav Links</h2>
+            <ul>
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+            </ul></td>
+    </tr>
+    <tr>
+        <td style="background-color:skyblue; text-align: center;" width="80%" height="400px"><p>this is the section area</p></td> 
+        <td style="background-color: slateblue;text-align: center;" height="400px"><p>sidebar</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color: teal; text-align: center;" width="100%"><h2>Footer</h2></td>
+    </tr>
+    </table>
+            
 </body>
 </html>
