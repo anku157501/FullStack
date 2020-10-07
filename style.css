@@ -1,8 +1,14 @@
-<style>
+
     body{
-        background-color:red;
+        background-color:palevioletred;
     
+    }
+    h1{
+        color:crimson;
+        font-size: large;
+        font-style: unset;
+        text-align:center;
+        padding-top:25px;
     }
     .blue{color:blue}
     .red{color:red}
-</style>
